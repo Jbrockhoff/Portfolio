@@ -1,15 +1,45 @@
+:root {
+    --teal: #99ffcc;
+    --dark: #52586b;
+}
 * {
     box-sizing: border-box;
-}
+    background-color: rgba(115, 113, 231, 0.938);
+} 
 
-.header {
+header {
     color:#52586b;
     background-color: #99ffcc;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
-
 }
 
+#main-header {
+    background-color: #99ffcc;
+}
+
+h1 .nie-Brockh {
+    color: white;
+    background-color: #99ffcc;
+}
+
+
+#main-sub-header {
+    display: flex;
+    justify-content: right;
+}
+
+button {
+    color: var(--dark);
+    background-color: #99ffcc;
+  
+}
+
+h2 {
+    background-color:#99ffcc;
+    font-size: 15px;
+    text-align: right;
+}
 
 footer {
     color: #52586b;
