@@ -2,45 +2,96 @@
     --teal: #99ffcc;
     --dark: #52586b;
 }
+
 * {
     box-sizing: border-box;
-    background-color: rgba(115, 113, 231, 0.938);
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
 
 header {
-    color:#52586b;
-    background-color: #99ffcc;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--dark);
+    background-color: var(--teal);
     text-align: left;
 }
 
 #main-header {
-    background-color: #99ffcc;
+    color: rgb(192, 192, 192);
+    background-color: var(--teal);
+    text-align: left;
+}
+
+p {
+    color: var(--dark);
+    font-size: 150%;
+    text-align: righ;
+
 }
 
 h1 .nie-Brockh {
-    color: white;
-    background-color: #99ffcc;
+    color: gray;
+    background-color: var(--teal);
 }
 
+h2 {
+    color: var(--dark);
+    background-color: var(--teal);
+    text-align: end;
+
+}
 
 #main-sub-header {
     display: flex;
+    color: var(--teal);
     justify-content: right;
+    border-color: var(--teal)
 }
 
 button {
     color: var(--dark);
-    background-color: #99ffcc;
+    background-color: var(--teal);
+    border-color: var(--teal);
+    font-size: 120%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin: 5px;
+}
+
+.button-options {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.button:hover {
+
+}
+
+
+nav {
+    background-color: #3b9664; 
+}
+
+p1 {
+    font-size: 115%;
+    color:var(--dark);
+    text-decoration: underline dashed var(--dark);
+}
+.contact {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+p2 {
+    font-size: 80%;
+    color: var(--dark)
   
 }
-
-h2 {
-    background-color:#99ffcc;
-    font-size: 15px;
-    text-align: right;
-}
-
 footer {
     color: #52586b;
     background-color: #99ffcc;
