@@ -40,8 +40,9 @@ h1, h2, h3 {
     font-size: 210%;
     text-decoration: underline dashed var(--dark);
 }
-
-
+li {
+    font-size: 130%;
+}
 button {
     color: var(--dark);
     background-color: var(--teal);
@@ -107,4 +108,5 @@ footer {
     height: 5rem;
     width: 100%;
     margin-top: 0;
+    text-align: center;
 }
