@@ -37,7 +37,7 @@ h1 .nie-Brockh {
 h1, h2, h3 {
     color: var(--dark);
     text-align: start;
-    font-size: 150%;
+    font-size: 210%;
     text-decoration: underline dashed var(--dark);
 }
 
@@ -65,31 +65,22 @@ button:hover {
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: #3b9664; 
-    margin-bottom: 0;
+    background-color: #3b9664;  
+}
+
+p {
+    font-size: 130%;
+    color: var(--dark);
 }
 
 footer {
     color: #52586b;
     background-color: #99ffcc;
+    font-size: 150%;
     padding: 20px;
     border: 2px solid #52586b;
     margin: 0;
     text-align:center;
-}
-img {
-    height:200px;
-    width: 200px;
-    margin: 5px;
-    padding: 10px;
-}
-
-
-#main-sub-header {
-    display: flex;
-    color: var(--teal);
-    justify-content: right;
-    border-color: var(--teal)
 }
 
 #main-header {
@@ -98,16 +89,6 @@ img {
     text-align: left;
 }
 
-/* .button-options {
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    margin: 1rem;
-    padding: 2rem;
-} */
-
-
 #contact {
     text-align: center;
     display: flex;
@@ -115,9 +96,9 @@ img {
     justify-content: center;
 }
 
-.hero-text {
+/*.hero-text {
     background-color: var(--teal);
-}
+}*/
 
 .hero-image {
     color:var(--dark);
