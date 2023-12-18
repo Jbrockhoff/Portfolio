@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
+
 main {
     margin: 0;
  }
@@ -14,29 +15,32 @@ main {
  section {
     margin: 0;
  }
+
 header {
     color: var(--dark);
     background-color: var(--teal);
-    text-align: left;
+    font-size: 100%;
+    text-align: center;
 }
 
-header p {
+/*header p {
     color: var(--dark);
-    font-size: 150%;
+    font-size: 200%;
     text-align: right;
 }
-
+*/
 h1 .nie-Brockh {
     color: gray;
     background-color: var(--teal);
 }
 
-h2 {
+h1, h2, h3 {
     color: var(--dark);
-    background-color: var(--teal);
-    text-align: end;
-
+    text-align: start;
+    font-size: 150%;
+    text-decoration: underline dashed var(--dark);
 }
+
 
 button {
     color: var(--dark);
@@ -62,6 +66,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     background-color: #3b9664; 
+    margin-bottom: 0;
 }
 
 footer {
@@ -72,6 +77,13 @@ footer {
     margin: 0;
     text-align:center;
 }
+img {
+    height:200px;
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
 
 #main-sub-header {
     display: flex;
@@ -100,7 +112,7 @@ footer {
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
 }
 
 .hero-text {
@@ -108,9 +120,10 @@ footer {
 }
 
 .hero-image {
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(229,57,236,1) 100%, rgba(0,212,255,1) 100%);
+    color:var(--dark);
+    font-size: 150%;
+    background: radial-gradient(circle, rgb(250, 250, 250) 0%, var(--teal) 100%, #1afdb9 100%);
     height: 5rem;
     width: 100%;
     margin-top: 0;
-
 }
