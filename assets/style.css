@@ -69,7 +69,7 @@ button:hover {
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: #3b9664;  
+    background-color: #179972;  
 }
 
 p {
@@ -108,7 +108,7 @@ footer {
 .hero-image {
     color:var(--dark);
     font-size: 150%;
-    background: radial-gradient(circle, rgb(250, 250, 250) 0%, var(--teal) 100%, #1afdb9 100%);
+    background: radial-gradient(circle, rgb(250, 250, 250) 0%, #179972 100%, #4d8876 100%);
     height: 5rem;
     width: 100%;
     margin-top: 0;
