@@ -40,9 +40,11 @@ h1, h2, h3 {
     font-size: 210%;
     text-decoration: underline dashed var(--dark);
 }
+
 li {
     font-size: 130%;
 }
+
 button {
     color: var(--dark);
     background-color: var(--teal);
@@ -60,7 +62,8 @@ button a {
 }
 
 button:hover {
-
+    color: gray;
+/*why does this only apply to the button that doesn't link */ 
 }
 
 nav {
