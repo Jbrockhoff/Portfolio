@@ -23,12 +23,6 @@ header {
     text-align: center;
 }
 
-/*header p {
-    color: var(--dark);
-    font-size: 200%;
-    text-align: right;
-}
-*/
 h1 .nie-Brockh {
     color: gray;
     background-color: var(--teal);
@@ -101,9 +95,9 @@ footer {
     justify-content: center;
 }
 
-/*.hero-text {
-    background-color: var(--teal);
-}*/
+.me img{
+    display: flex;
+}
 
 .hero-image {
     color:var(--dark);
@@ -114,3 +108,25 @@ footer {
     margin-top: 0;
     text-align: center;
 }
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  
