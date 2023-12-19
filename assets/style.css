@@ -112,14 +112,14 @@ footer {
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
-      background: #772014;
+      background: #06361e;
     }
   }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
     nav {
-      background-color: #bb8588;
+      background-color: #1b7749;
     }
   }
   
