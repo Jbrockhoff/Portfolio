@@ -55,7 +55,7 @@ button a {
     background-color: var(--teal);
 }
 
-button:hover {
+button a:hover, button:hover {
     color: gray;
 /*why does this only apply to the button that doesn't link */ 
 }
@@ -95,8 +95,46 @@ footer {
     justify-content: center;
 }
 
-.me img{
+#work {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 100%;
+    justify-content: space-evenly;
+}
+
+#self-photo {
+    height: 25rem;
+    width: 22%;
+    object-fit: contain;
+}
+#featured-project {
+    position: relative;
+
+}
+#featured-project-img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+#featured-project-deployed {
+    color: #179972;
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+
+}
+#about-me {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-img {
+    height: 25rem;
+    width: 30rem;
+    max-inline-size: 100%;
+    margin: 1rem;
+    object-fit: cover;
 }
 
 .hero-image {
