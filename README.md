@@ -15,7 +15,7 @@ This page is used as a professional portfolio for employment opportunities.
 Here is a screenshot of the completed webpage:
 ![portfolio-screenshot](assets/images/portfolio-screenshot.png)
 
-[Here is a link to the deployed application]()
+[Here is a link to my deployed Portfolio](https://jbrockhoff.github.io/Portfolio/)
 
 ## Credits
 
