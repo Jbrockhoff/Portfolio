@@ -78,14 +78,6 @@ footer {
     text-align:center;
 }
 
-.project-img {
-    height: 25rem;
-    width: 30rem;
-    max-inline-size: 100%;
-    margin: 1rem;
-    object-fit: cover;
-}
-
 .hero-image {
     color:var(--dark);
     font-size: 150%;
@@ -95,6 +87,15 @@ footer {
     margin-top: 0;
     text-align: center;
 }
+
+.project-img {
+    height: 25rem;
+    width: 30rem;
+    max-inline-size: 100%;
+    margin: 1rem;
+    object-fit: cover;
+}
+
 
 #main-header {
     color: rgb(192, 192, 192);
@@ -163,10 +164,14 @@ footer {
 }
 
 #deploying-soon {
+    color: #179972;
+    background-color: rgba(245, 242, 239, 0.911);
+    font-size: 150%;
+    border: 5px solid var(--dark);
+    border-radius: 10px;
     position: absolute;
-    bottom: 4rem;
-    left: 1rem;
-    color: var(--dark)
+    bottom: 5rem;
+    left: 40%;
 }
 
 @media screen and (max-width: 992px) {
