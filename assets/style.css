@@ -138,60 +138,55 @@ footer {
 
 #featured-project-deployed {
     color: #179972;
-    background-color: white;
+    background-color: antiquewhite;
     font-size: 150%;
-    border-radius: 5px;
+    border: 5px solid var(--dark);
+    border-radius: 10px;
     position: absolute;
     bottom: 10rem;
-    left: 38rem;
+    left: 39%;
 }
 
 #featured-project-github {
     color: #179972;
-    background-color: white;
+    background-color: antiquewhite;
     font-size: 150%;
-    border: 2px solid var(--dark);
-    border-radius: 5px;
+    border: 5px solid var(--dark);
+    border-radius: 10px;
     position: absolute;
     bottom: 5rem;
-    left: 39rem;
+    left: 40%;
 }
 
-#project2-img {
-    
-
+#project2, #project3, #project4, #project5  {
+    position: relative;
 }
 
-#project3-img {
-
+#deploying-soon {
+    position: absolute;
+    bottom: 4rem;
+    left: 1rem;
+    color: var(--dark)
 }
 
-#project4-img {
-
-}
-
-#project5-img {
-
-}
-
-/* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
       background: #06361e;
+      orientation: landscape;
     }
   }
   
-  /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
     nav {
       background-color: #1b7749;
+      orientation: portrait;
     }
   }
-  
-  /* Small smartphones - image placeholders change color */
+ 
   @media screen and (max-width: 576px) {
-    .sample-img {
+    main {
       background-color: #8ac4ff;
+      orientation: portrait;
     }
   }
   
