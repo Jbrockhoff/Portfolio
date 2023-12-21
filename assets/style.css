@@ -138,7 +138,7 @@ footer {
 
 #featured-project-deployed {
     color: #179972;
-    background-color: antiquewhite;
+    background-color: rgba(245, 242, 239, 0.911);
     font-size: 150%;
     border: 5px solid var(--dark);
     border-radius: 10px;
@@ -149,7 +149,7 @@ footer {
 
 #featured-project-github {
     color: #179972;
-    background-color: antiquewhite;
+    background-color: rgba(245, 242, 239, 0.911);
     font-size: 150%;
     border: 5px solid var(--dark);
     border-radius: 10px;
