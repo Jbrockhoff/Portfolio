@@ -8,11 +8,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
 
-main {
-    margin: 0;
- }
-
- section {
+main, section {
     margin: 0;
  }
 
@@ -57,7 +53,6 @@ button a {
 
 button a:hover, button:hover {
     color: gray;
-/*why does this only apply to the button that doesn't link */ 
 }
 
 nav {
@@ -69,6 +64,7 @@ nav {
 p {
     font-size: 130%;
     color: var(--dark);
+    background-color: var(--teal);
     text-align: center;
 }
 
@@ -80,53 +76,6 @@ footer {
     border: 2px solid #52586b;
     margin: 0;
     text-align:center;
-}
-
-#main-header {
-    color: rgb(192, 192, 192);
-    background-color: var(--teal);
-    text-align: left;
-}
-
-#contact {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#work {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    font-size: 100%;
-    justify-content: space-evenly;
-}
-
-#self-photo {
-    height: 25rem;
-    width: 22%;
-    object-fit: contain;
-}
-#featured-project {
-    position: relative;
-
-}
-#featured-project-img{
-    width: 100vw;
-    object-fit: cover;
-}
-
-#featured-project-deployed {
-    color: #179972;
-    position: absolute;
-    bottom: 2rem;
-    left: 1rem;
-
-}
-#about-me {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .project-img {
@@ -145,6 +94,84 @@ footer {
     width: 100%;
     margin-top: 0;
     text-align: center;
+}
+
+#main-header {
+    color: rgb(192, 192, 192);
+    background-color: var(--teal);
+    text-align: left;
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 100%;
+    justify-content: space-evenly;
+}
+
+#contact {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#self-photo {
+    height: 25rem;
+    width: 22%;
+    object-fit: contain;
+}
+#featured-project {
+    position: relative;
+
+}
+#featured-project-img{
+    width: 100vw;
+    object-fit: cover;
+}
+
+#featured-project-deployed {
+    color: #179972;
+    background-color: white;
+    font-size: 150%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10rem;
+    left: 38rem;
+}
+
+#featured-project-github {
+    color: #179972;
+    background-color: white;
+    font-size: 150%;
+    border: 2px solid var(--dark);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5rem;
+    left: 39rem;
+}
+
+#project2-img {
+    
+
+}
+
+#project3-img {
+
+}
+
+#project4-img {
+
+}
+
+#project5-img {
+
 }
 
 /* Tablets - header changes color */
