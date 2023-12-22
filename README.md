@@ -2,7 +2,7 @@
 
 ## Description
 
-I have created this webpage in order to highlight my skills as a software developer and to make my professional work and resume easily accessible to potential employers. I wanted to build a webpage from scratch and make it unique in order to stand out as an exceptional candidate for software development. Thiss will be an asset while applying for positions as developer and help me deepen my knowledge of the process involved in creating a deployed application
+I have created this webpage in order to highlight my skills as a software developer and to make my professional work and resume easily accessible to potential employers. I wanted to build a webpage from scratch and make it unique in order to stand out as an exceptional candidate for software development. This will be an asset while applying for positions as developer and help me deepen my knowledge of the process involved in creating a deployed application
 
 ## Installation
 
